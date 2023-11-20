@@ -2,6 +2,9 @@ import React from 'react'
 import one from './images/better-emoji.svg'
 import two from './images/personal-profile.svg'
 import three from './images/support-a-server.svg'
+import fourth from './images/rep-your-support.svg'
+import fiveth from './images/bigger-uploads.png'
+import sixth from './images/hd-video.png'
 function section2() {
   return (
    <>
@@ -41,21 +44,21 @@ function section2() {
                       <div class="text1">Rep Your Support</div>
                       <div class="text2">Profile badge shows how long you've <br/>supported Discord.</div>
                   </div>
-                  <img class="col-imgs" src="./src/rep-your-support.svg" alt=""/>                 
+                  <img class="col-imgs" src={fourth} alt=""/>                 
                   </div>
                   <div class="card5">
                       <div>
                           <div class="text1">Bigger Uploads</div>
                           <div class="text2">100MB upload size for high-quality file sharing.</div>
                       </div>
-                      <img class="col-imgss" src="./src/bigger-uploads.png" alt=""/>                
+                      <img class="col-imgss" src={fiveth} alt=""/>                
                   </div>
                   <div class="card6">
                       <div>
                           <div class="text1">HD Video</div>
                           <div class="text2">Hi-res video, screenshare, and Go <br/>Live streaming.</div>
                       </div>
-                      <img class="col-imgss5" src="./src/hd-video.png" alt=""/>                    
+                      <img class="col-imgss5" src={sixth} alt=""/>                    
                   </div>
               </div>
               <div class="does-it">
